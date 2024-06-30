@@ -1,0 +1,92 @@
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-color:  rgba(255, 255, 255, 0.948);
+
+}
+
+.left-text {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+}
+
+#display-text {
+  
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+#display-paragraph {
+  font-family: "Playwrite US Trad";
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+
+.order-now-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.ring-container {
+  flex: 1;
+  position: relative;
+}
+
+.image-ring {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ring-image {
+  display: none;
+  max-width: 90%;
+  max-height: 80%;
+  transition: transform 0.15s ease, opacity 0.5s ease;
+}
+
+.ring-image.active {
+  display: block;
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
+  
+  
+  

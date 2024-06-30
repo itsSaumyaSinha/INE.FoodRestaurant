@@ -1,0 +1,30 @@
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Example background color */
+    color: #fff; /* Example text color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+}
+
+.footer-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-item h4 {
+    margin-bottom: 10px;
+}
+
+.footer-item p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+

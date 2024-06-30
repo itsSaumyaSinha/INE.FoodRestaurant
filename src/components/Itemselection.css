@@ -1,0 +1,25 @@
+.item-selection-container {
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  
+  .item-selection-container label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  .item-selection-container select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .item-selection-container select:focus {
+    outline: none;
+    border-color: #007bff; /* Example of focus state */
+  }
+  

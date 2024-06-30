@@ -1,0 +1,40 @@
+.contact-us-container {
+  padding: 20px;
+  font-family: 'Georgia, serif';
+  color: #555;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-us-title {
+  font-size: 2.5em;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.contact-us-text {
+  font-size: 1.2em;
+  margin-bottom: 75px;
+  line-height: 1.6;
+}
+
+.contact-details p {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #555;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #333;
+}
